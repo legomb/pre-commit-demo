@@ -25,5 +25,5 @@ brew install pre-commit
 
 2. Install the pre-commit hooks:
 ```sh
-pre-commit install --hook-type commit-msg
+pre-commit install
 ```
