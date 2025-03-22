@@ -10,14 +10,6 @@ repos:
       - id: end-of-file-fixer
       - id: check-yaml
       - id: check-added-large-files
-  # - repo: https://github.com/douira/commitlint-pre-commit
-  #   rev: v12.1.1
-  #   hooks:
-  #     - id: commitlint
-  #       name: Conventional Commits
-  #       # You can pin or override commitlint configs here:
-  #       additional_dependencies:
-  #         - "@commitlint/config-conventional@12.1.1"
   - repo: https://github.com/compilerla/conventional-pre-commit
     rev: v2.1.1
     hooks:
