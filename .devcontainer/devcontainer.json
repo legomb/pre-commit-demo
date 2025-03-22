@@ -1,0 +1,19 @@
+{
+  "name": "Lightweight Pre-commit Demo",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "pre-commit install",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {
+        "version": "latest",
+        "ppa": false,
+        "configureGitCredentials": true
+    }
+  }
+}
