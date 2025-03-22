@@ -27,11 +27,3 @@ brew install pre-commit
 ```sh
 pre-commit install --hook-type commit-msg
 ```
-
-## Benefits of This Approach
-
-- **No Python Dependency**: Completely avoids Python and `pre-commit`.
-- **Lightweight**: Uses only shell scripts and Git's native hook system.
-- **Portable**: Works in both local and containerized environments with minimal setup.
-
-This approach ensures that Git hooks are enforced without requiring Python or any additional dependencies.
