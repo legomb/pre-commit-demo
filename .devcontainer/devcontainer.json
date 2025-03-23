@@ -1,7 +1,8 @@
 {
   "name": "Lightweight Pre-commit Demo",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
   "postCreateCommand": "pre-commit install",
   "customizations": {
