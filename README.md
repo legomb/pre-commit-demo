@@ -1,6 +1,6 @@
 # Pre-commit demo
 
-This demo uses pre-commit to ensure consistent formatting in commit messages, testing them against the [Conventional Commits](https://www.conventionalcommits.org)) specification.
+This demo uses pre-commit to ensure consistent formatting in commit messages, testing them against the [Conventional Commits](https://www.conventionalcommits.org) specification.
 
 It includes a configuration file that specifies hooks for checking commit message formats, along with a custom script to enforce the desired formatting rules.
 
